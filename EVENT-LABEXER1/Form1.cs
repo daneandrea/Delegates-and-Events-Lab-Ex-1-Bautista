@@ -13,26 +13,9 @@ namespace EVENT_LABEXER1
     public delegate long DelegateNumber(long number);
     public delegate string DelegateName(string name);
 
-    public class StudentInfoClass
-    {
-        public static string FirstName = "";
-        public static string Program = "";
-       
-       // public static string GetFirstName(string FirstName);
-       // {
-      // return FirstName;
-           // public static string GetProgram(string FirstName);
-       //return Program;
-        } 
-     
-
-    
-
-
-
     public partial class Form1 : Form
     {
-        
+
         private object StudentInfoClass;
 
         public Form1()
@@ -43,8 +26,8 @@ namespace EVENT_LABEXER1
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-           // StudentInfoClass.FirstName = FirstName.Text.ToString();
+
+            // StudentInfoClass.FirstName = FirstName.Text.ToString();
             // StudentInfoClass.LastName = LastName.Text.ToString();
             //StudentInfoClass.MiddleName = MiddleName.Text.ToString();
 
