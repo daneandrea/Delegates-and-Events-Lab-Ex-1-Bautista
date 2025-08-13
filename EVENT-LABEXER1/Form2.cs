@@ -14,7 +14,6 @@ namespace AccountRegistration
     {
         private studentInfoClass.DelegateText DelProgram, DelLastName, DelFirstName, DelMiddleName, DelAddress;
         private studentInfoClass.DelegateNumber DelAge, DelContactNo, DelStudentNo;
-        private StudentInfoClass studentInfo;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -22,10 +21,8 @@ namespace AccountRegistration
             this.Close();
         }
 
-
         public FrmConfirm()
         {
-
             InitializeComponent();
 
             DelProgram = new studentInfoClass.DelegateText(studentInfoClass.GetProgram);
@@ -36,12 +33,9 @@ namespace AccountRegistration
             DelAge = new studentInfoClass.DelegateNumber(studentInfoClass.GetAge);
             DelContactNo = new studentInfoClass.DelegateNumber(studentInfoClass.GetContactNo);
             DelStudentNo = new studentInfoClass.DelegateNumber(studentInfoClass.GetStudentNo);
-
-
         }
 
-
-        private void Form2_Load(object sender, EventArgs e)
+        private void FrmConfirm_Load(object sender, EventArgs e)
         {
             label9.Text = DelProgram(studentInfoClass.Program);
             label10.Text = DelLastName(studentInfoClass.LastName);
@@ -51,14 +45,11 @@ namespace AccountRegistration
             label14.Text = DelAge(studentInfoClass.Age).ToString();
             label15.Text = DelContactNo(studentInfoClass.ContactNo).ToString();
             label16.Text = DelStudentNo(studentInfoClass.StudentNo).ToString();
-
         }
-
 
         private void FrmConfirm_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.DialogResult = DialogResult.OK;
-
         }
     }
 }

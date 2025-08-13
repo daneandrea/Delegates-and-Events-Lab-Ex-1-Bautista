@@ -1,0 +1,11 @@
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\bin\Debug\EVENT-LABEXER1.exe.config
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\bin\Debug\EVENT-LABEXER1.exe
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\bin\Debug\EVENT-LABEXER1.pdb
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\AccounRegistration.csproj.AssemblyReference.cache
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\AccountRegistration.FrmRegistration.resources
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\AccountRegistration.FrmConfirm.resources
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\EVENT_LABEXER1.Properties.Resources.resources
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\AccounRegistration.csproj.GenerateResource.cache
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\AccounRegistration.csproj.CoreCompileInputs.cache
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\EVENT-LABEXER1.exe
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\EVENT-LABEXER1.pdb

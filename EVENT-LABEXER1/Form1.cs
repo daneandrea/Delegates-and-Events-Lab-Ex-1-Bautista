@@ -9,11 +9,8 @@ using System.Windows.Forms;
 namespace AccountRegistration
 {
 
-
     public partial class FrmRegistration : Form
     {
-
-        private object StudentInfoClass;
 
         public FrmRegistration()
         {
@@ -60,7 +57,12 @@ namespace AccountRegistration
 
         private void FrmRegistration_Load(object sender, EventArgs e)
         {
-
+            // Add program items to the combo box
+            ProgramcomboBox.Items.Add("BS Information Technology");
+            ProgramcomboBox.Items.Add("BS Computer Science");
+            ProgramcomboBox.Items.Add("BS Information Systems");
+            ProgramcomboBox.Items.Add("BS Computer Engineering");
+            ProgramcomboBox.Items.Add("BS Multimedia Arts");
         }
     }
 }
