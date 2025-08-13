@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EVENT_LABEXER1
+namespace AccountRegistration
 {
     internal static class Program
     {

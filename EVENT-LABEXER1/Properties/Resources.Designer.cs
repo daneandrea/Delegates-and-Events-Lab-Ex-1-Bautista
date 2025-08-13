@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EVENT_LABEXER1.Properties
+namespace AccountRegistration.Properties
 {
 
 

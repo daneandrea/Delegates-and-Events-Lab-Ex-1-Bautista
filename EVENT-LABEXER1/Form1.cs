@@ -1,40 +1,77 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AccountRegistration;
+using System;
+
 using System.Windows.Forms;
 
-namespace EVENT_LABEXER1
-{
-    public delegate long DelegateNumber(long number);
-    public delegate string DelegateName(string name);
 
-    public partial class Form1 : Form
+
+
+namespace AccountRegistration
+{
+
+
+    public partial class FrmRegistration : Form
     {
 
         private object StudentInfoClass;
 
-        public Form1()
+        public FrmRegistration()
         {
             InitializeComponent();
+         
         }
 
 
         private void button1_Click(object sender, EventArgs e)
         {
+            studentInfoClass.Program = ProgramcomboBox.Text.ToString();
+            studentInfoClass.FirstName = FirstName.Text.ToString();
+            studentInfoClass.LastName = LastName.Text.ToString();
+            studentInfoClass.MiddleName = MiddleName.Text.ToString();
+            studentInfoClass.Address = Address.Text.ToString();
 
-            // StudentInfoClass.FirstName = FirstName.Text.ToString();
-            // StudentInfoClass.LastName = LastName.Text.ToString();
-            //StudentInfoClass.MiddleName = MiddleName.Text.ToString();
+            if (long.TryParse(Age.Text, out long age))
+                studentInfoClass.Age = age;
+
+            if (long.TryParse(ContactNo.Text, out long contactNo))
+                studentInfoClass.ContactNo = contactNo;
+
+            if (long.TryParse(StudentNo.Text, out long studentNo))
+                studentInfoClass.StudentNo = studentNo;
+
+            FrmConfirm frmConfirm = new FrmConfirm();
+            if (frmConfirm.ShowDialog() == DialogResult.OK)
+            {
+                FirstName.Clear();
+                LastName.Clear();
+                MiddleName.Clear();
+                Address.Clear();
+                Age.Clear();
+                ContactNo.Clear();
+                StudentNo.Clear();
+                ProgramcomboBox.SelectedIndex = -1;
+
+            }
 
 
-            Form2 formConfirm = new Form2();
-            formConfirm.ShowDialog();
+        }
+
+
+
+        private void FrmRegistration_Load(object sender, EventArgs e)
+        {
 
         }
     }
 }
+
+
+    
+
+
+        
+
+       
+
+
+   

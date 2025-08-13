@@ -1,6 +1,6 @@
-﻿namespace EVENT_LABEXER1
+﻿namespace AccountRegistration
 {
-    partial class Form2
+    partial class FrmConfirm
     {
         /// <summary>
         /// Required designer variable.
@@ -137,6 +137,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label9
             // 
@@ -218,7 +219,7 @@
             this.label16.TabIndex = 17;
             this.label16.Text = "ADD";
             // 
-            // Form2
+            // FrmConfirm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -241,7 +242,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "FrmConfirm";
             this.Text = "FrmConfirm";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
