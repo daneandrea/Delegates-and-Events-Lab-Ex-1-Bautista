@@ -9,3 +9,4 @@ C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LAB
 C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\AccounRegistration.csproj.CoreCompileInputs.cache
 C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\EVENT-LABEXER1.exe
 C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\EVENT-LABEXER1.pdb
+C:\Users\deane\OneDrive\Desktop\Delegates-and-Events-Lab-Ex-1-Bautista\EVENT-LABEXER1\obj\Debug\EVENT-LABEXER1.exe.config

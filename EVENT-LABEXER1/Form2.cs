@@ -37,14 +37,29 @@ namespace AccountRegistration
 
         private void FrmConfirm_Load(object sender, EventArgs e)
         {
-            label9.Text = DelProgram(studentInfoClass.Program);
-            label10.Text = DelLastName(studentInfoClass.LastName);
-            label11.Text = DelFirstName(studentInfoClass.FirstName);
-            label12.Text = DelMiddleName(studentInfoClass.MiddleName);
-            label13.Text = DelAddress(studentInfoClass.Address);
+            // Student No
+            label9.Text = DelStudentNo(studentInfoClass.StudentNo).ToString();
+            
+            // Program
+            label10.Text = DelProgram(studentInfoClass.Program);
+            
+            // Last Name
+            label11.Text = DelLastName(studentInfoClass.LastName);
+            
+            // First Name
+            label12.Text = DelFirstName(studentInfoClass.FirstName);
+            
+            // Middle Name
+            label13.Text = DelMiddleName(studentInfoClass.MiddleName);
+            
+            // Age
             label14.Text = DelAge(studentInfoClass.Age).ToString();
+            
+            // Contact No
             label15.Text = DelContactNo(studentInfoClass.ContactNo).ToString();
-            label16.Text = DelStudentNo(studentInfoClass.StudentNo).ToString();
+            
+            // Address
+            label16.Text = DelAddress(studentInfoClass.Address);
         }
 
         private void FrmConfirm_FormClosing(object sender, FormClosingEventArgs e)
